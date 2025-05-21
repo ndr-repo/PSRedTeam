@@ -1,5 +1,10 @@
 # PSRedTeam
 Disclaimer: I am not responsible for your actions. Use these tools ethically and responsibly.
+## Setup
+```
+git clone https://github.com/ndr-repo/PSRedTeam.git
+powershell -noexit -ExecutionPolicy Bypass -File <path-to-script>.ps1
+```
 ## User Enumeration
 ### Enumerate-GitHubOrgMembers.ps1
 ```
