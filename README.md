@@ -13,6 +13,7 @@ Enumerate-GitHubOrgMembers.ps1 <gh-org-name>
 ```
 ### WordPress
 #### Enumerate-WordPressOrgMembersREST.ps1
+PoC for CVE-2017-5487
 ```
 Enumerate-WordPressOrgMembersREST.ps1 <target-domain>
 ```
