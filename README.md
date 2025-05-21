@@ -7,7 +7,7 @@ powershell -noexit -ExecutionPolicy Bypass -File <path-to-script>.ps1
 ```
 ## User Enumeration
 ### GitHub
-### Enumerate-GitHubOrgMembers.ps1
+#### Enumerate-GitHubOrgMembers.ps1
 ```
 Enumerate-GitHubOrgMembers.ps1 <gh-org-name>
 ```
