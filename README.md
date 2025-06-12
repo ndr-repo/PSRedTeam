@@ -30,3 +30,13 @@ Enumerate-WordPressOrgMembersREST-Bypass1.ps1 <target-domain>
 ## Windows Post-Exploitation
 ### AMSI Reference
 ![AMSI7Archi-1](https://github.com/user-attachments/assets/fc9df6ac-7ad8-47a9-ad21-fb33836ed406)
+### Sys32ACLs.ps1
+
+Enumerates access control for executables in Windows\System32. I dont set this to recurse to avoid triggering security event logs or antivirus. 
+
+If you cant run PowerShell scripts, consider the following:
+-  Do you have shell/WinRM access only or desktop?
+    - Desktop: Try running the script inline via PowerShell ISE
+    - Shell/WinRM: Pivot - Enumerate via windows cmd (batch one-liners) & WMI
+
+
