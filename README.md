@@ -1,11 +1,12 @@
 # PSRedTeam
 Disclaimer: I am not responsible for your actions. Use these tools ethically and responsibly.
+
 ## Setup
 ```
 git clone https://github.com/ndr-repo/PSRedTeam.git
 powershell -noexit -ExecutionPolicy Bypass -File <path-to-script>.ps1
 ```
-## User Enumeration
+## User Enumeration - Network (Web Applications)
 ### GitHub
 #### Enumerate-GitHubOrgMembers.ps1
 ```
@@ -25,3 +26,7 @@ Enumerate-WordPressOrgMembersREST-Bypass1.ps1 <target-domain>
 ```
 
 ![image](https://github.com/user-attachments/assets/a560e447-9dc0-40a9-a041-02bcfe7b0faa)
+
+## Windows Post-Exploitation
+### AMSI Reference
+![AMSI7Archi-1](https://github.com/user-attachments/assets/fc9df6ac-7ad8-47a9-ad21-fb33836ed406)
