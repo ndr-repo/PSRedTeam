@@ -35,6 +35,4 @@ Enumerates access control for executables in Windows\System32
 ```
 powershell -noexit -ExecutionPolicy Bypass -File .\Sys32ACLs.ps1
 ```
-![image](https://github.com/user-attachments/assets/8d48fc9b-aee8-4d2f-b162-5d22c67bbcc9)
-
 
