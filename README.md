@@ -6,6 +6,10 @@ Disclaimer: I am not responsible for your actions. Use these tools ethically and
 git clone https://github.com/ndr-repo/PSRedTeam.git
 powershell -noexit -ExecutionPolicy Bypass -File <path-to-script>.ps1
 ```
+## Credential Discovery
+```
+powershell -exec Bypass combSearch.ps1 <username-or-email>
+```
 ## User Enumeration - Network (Web Applications)
 ### GitHub
 #### Enumerate-GitHubOrgMembers.ps1
