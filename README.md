@@ -31,11 +31,6 @@ Enumerate-WordPressOrgMembersREST-Bypass1.ps1 <target-domain>
 
 ![image](https://github.com/user-attachments/assets/a560e447-9dc0-40a9-a041-02bcfe7b0faa)
 
-## Windows Post-Exploitation
-### AMSI Reference
-![AMSI7Archi-1](https://github.com/user-attachments/assets/fc9df6ac-7ad8-47a9-ad21-fb33836ed406)
-### WMI Architecture
-![image](https://github.com/user-attachments/assets/6c4bfb99-911d-4080-bb48-7493516f01a1)
 ### Sys32ACLs.ps1
 Enumerates access control for executables in Windows\System32
 ```
