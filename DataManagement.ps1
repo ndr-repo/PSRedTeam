@@ -1,0 +1,1 @@
+function Invoke-ExtSearch { Get-ChildItem -File -Recurse $(Get-Location) -ErrorAction SilentlyContinue | Where-Object -Property Extension -EQ $args | Select-Object -Property Extension,Length,LastWriteTimeUtc,FullName | Sort-Object -Property LastWriteTimeUtc,Length }
