@@ -4,19 +4,17 @@ Disclaimer: I am not responsible for your actions. Use these tools ethically and
 ## Setup
 ```
 git clone https://github.com/ndr-repo/PSRedTeam.git
-powershell -noexit -ExecutionPolicy Bypass -File <path-to-script>.ps1
 ```
 ## Credential Discovery
 ```
 powershell -exec Bypass combSearch.ps1 <username-or-email>
 ```
-## User Enumeration - Network (Web Applications)
-### GitHub
+## User Enumeration - GitHub
 #### Enumerate-GitHubOrgMembers.ps1
 ```
 Enumerate-GitHubOrgMembers.ps1 <gh-org-name>
 ```
-### WordPress
+## User Enumeration - WordPress servers 
 #### Enumerate-WordPressOrgMembersREST.ps1
 PoC for CVE-2017-5487
 ```
